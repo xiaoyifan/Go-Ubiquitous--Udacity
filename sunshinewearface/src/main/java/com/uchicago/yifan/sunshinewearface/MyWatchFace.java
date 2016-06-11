@@ -100,6 +100,7 @@ public class MyWatchFace extends CanvasWatchFaceService {
         }
     }
 
+    //reference: https://github.com/santhoshvai/sunshineWatchFace/blob/master/wear/src/main/java/com/example/android/sunshine/app/SunshineWatchFace.java
     private class Engine extends CanvasWatchFaceService.Engine {
 
         long mInteractiveUpdateRateMs = INTERACTIVE_UPDATE_RATE_MS;
